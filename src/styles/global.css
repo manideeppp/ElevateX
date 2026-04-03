@@ -943,11 +943,14 @@ body:hover .cursor-glow{opacity:1}
   .hero-subtitle{margin:0 auto 40px}
   .hero-actions{justify-content:center}
   .hero-stats{justify-content:center;max-width:100%;margin:40px auto 0}
-  .hero-visual{max-width:560px;margin:40px auto 0}
+  .hero-visual{max-width:520px;margin:32px auto 0}
   .wwd-boxes{grid-template-columns:1fr 1fr}
   .pf-featured .pf-card{grid-template-columns:1fr}
-  .pf-visual{border-radius:var(--radius) var(--radius) 0 0}
-  .pf-info{padding:32px}
+  .pf-visual{border-radius:var(--radius) var(--radius) 0 0;padding:20px}
+  .pf-info{padding:32px;text-align:center}
+  .pf-tags{justify-content:center}
+  .pf-results{justify-content:center}
+  .pf-visit-btn{margin:0 auto}
   .why-layout{grid-template-columns:1fr}
   .why-left{position:static;text-align:center}
   .section-title.tl{text-align:center}
@@ -961,8 +964,8 @@ body:hover .cursor-glow{opacity:1}
   .nav-links{display:none}
   .mobile-toggle{display:flex}
   .navbar.open .mobile-menu{display:block}
-  .hero{padding:110px 0 56px}
-  .hero-visual{max-width:480px}
+  .hero{padding:100px 0 48px}
+  .hero-visual{max-width:420px}
   .wwd-boxes,.pf-grid{grid-template-columns:1fr}
   .testi-grid{grid-template-columns:1fr}
   .hero-stats{flex-direction:column;gap:20px;align-items:center}
@@ -975,13 +978,58 @@ body:hover .cursor-glow{opacity:1}
   .hv-3d-shape{display:none}
   .marquee-track{gap:32px}
   .marquee-item{font-size:13px}
+  .pf-visual{padding:16px}
+  .pf-screenshot{height:260px !important;object-fit:cover;object-position:top}
+  .pf-device{border-radius:var(--radius-sm)}
+  .hero-content{padding:0 8px}
+  .hero-eyebrow{font-size:11px;gap:8px}
+  .eyebrow-line{width:24px}
 }
 @media(max-width:480px){
   :root{--gap:64px}
-  .hero-title{font-size:30px}
+  .hero-title{font-size:28px;letter-spacing:-1px}
   .section-header{margin-bottom:48px}
-  .hero-visual{max-width:100%}
+  .hero-visual{max-width:100%;margin-top:24px}
   .hv-float-conv,.hv-float-perf{display:none}
+  .hv-float-speed{top:2%;right:0;transform:scale(0.9)}
+  .hero-subtitle{font-size:15px;padding:0 8px}
+  .hero-actions{gap:10px}
+  .btn-lg{padding:14px 28px;font-size:14px}
+  .container{padding:0 16px}
+  .pf-info{padding:24px 20px}
+  .pf-info h3{font-size:20px}
+  .pf-info p{font-size:13px}
+  .pf-tags span{padding:4px 10px;font-size:11px}
+  .pf-results{gap:16px;flex-wrap:wrap;justify-content:center}
+  .pf-result-val{font-size:18px}
+  .pf-result-lab{font-size:9px}
+  .pf-screenshot{height:220px !important}
+  .scroll-hint{margin-top:20px}
+  .scroll-hint span{font-size:10px;letter-spacing:1.5px}
+  .section-title{font-size:26px;letter-spacing:-1px}
+  .section-desc{font-size:15px}
+  .hv-browser{border-radius:var(--radius-sm)}
+  .hv-browser-bar{padding:8px 10px;gap:5px}
+  .hv-browser-bar i{width:8px;height:8px}
+  .hv-dash-sidebar{width:40px;padding:10px 6px}
+  .hv-dash-main{padding:10px 12px}
+  .hv-dash-card{height:36px}
+  .hv-screen{min-height:160px}
+  .wwd-box{padding:28px 24px}
+  .wwd-title{font-size:18px}
+  .wwd-desc{font-size:13px}
+  .wwd-num{font-size:32px;top:16px;right:18px}
+  .testi-card{padding:24px}
+  .tc-text{font-size:14px}
+  .cta-title{font-size:28px;letter-spacing:-1px}
+  .cta-desc{font-size:15px}
+  .why-card{padding:20px;gap:14px}
+  .wc-body h3{font-size:16px}
+  .wc-body p{font-size:13px}
+  .form-card{padding:24px 20px}
+  .fg label{font-size:11px}
+  .phone-input-row{flex-direction:column;align-items:stretch}
+  .country-code-select{width:100% !important}
 }
 
 /* ─── Tilt card 3D ─── */

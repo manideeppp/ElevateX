@@ -38,7 +38,7 @@ export default function Hero({ loaded }) {
             transition={{ duration: 0.6, delay: 0.1, ease }}
           >
             <span className="eyebrow-line" />
-            <span>Premium Digital Agency</span>
+            <span>Digital Agency</span>
             <span className="eyebrow-dot" />
           </motion.div>
 
