@@ -71,7 +71,7 @@ export default function Contact() {
     
     try {
       const { error } = await supabase
-        .from('contact_submissions')
+        .from('elevatex_messages')
         .insert([
           {
             name: form.name,

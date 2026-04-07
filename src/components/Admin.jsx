@@ -48,7 +48,7 @@ export default function Admin({ onBack }) {
   const fetchSubmissions = async () => {
     try {
       const { data, error } = await supabase
-        .from('contact_submissions')
+        .from('elevatex_messages')
         .select('*')
         .order('created_at', { ascending: false });
       
@@ -66,7 +66,7 @@ export default function Admin({ onBack }) {
     
     try {
       const { error } = await supabase
-        .from('contact_submissions')
+        .from('elevatex_messages')
         .delete()
         .eq('id', id);
       
@@ -84,7 +84,7 @@ export default function Admin({ onBack }) {
     
     try {
       const { error } = await supabase
-        .from('contact_submissions')
+        .from('elevatex_messages')
         .delete()
         .neq('id', '00000000-0000-0000-0000-000000000000'); // Delete all rows
       
