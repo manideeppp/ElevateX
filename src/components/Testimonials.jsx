@@ -2,23 +2,16 @@ import { FadeIn, StaggerContainer, StaggerItem, HoverLift } from './MotionPrimit
 
 const testimonials = [
   {
-    text: '"ElevateX completely transformed our online presence. Revenue jumped 340% in three months and our bounce rate dropped to almost nothing. Best investment we\'ve made."',
-    name: 'Sarah Chen',
-    role: 'CEO, NovaTech',
+    text: '"ElevateX built us a complete e-commerce platform from the ground up — admin portal, secure authentication, payment gateway, all of it. Our handcrafted art and custom portraits now reach customers seamlessly online. Truly a best-in-class experience."',
+    name: 'Sakshari Reddy',
+    role: 'Founder, Swachithram, Hyderabad, India',
     stars: 5,
     featured: true,
   },
   {
-    text: '"The team delivered a SaaS dashboard that our users genuinely love. The attention to micro-interactions and performance was beyond anything we expected."',
-    name: 'Marcus Rivera',
-    role: 'CTO, PulseBoard',
-    stars: 5,
-    featured: false,
-  },
-  {
-    text: '"Working with ElevateX felt like having an in-house team. Transparent communication, fast delivery, and the final product outperformed all our KPIs."',
-    name: 'Anya Patel',
-    role: 'VP Marketing, VaultPay',
+    text: '"ElevateX understood exactly what our brand needed. The website captures the feel of authentic Korean dining and makes it effortless for customers across the UK to discover and book with us."',
+    name: 'Bhargav',
+    role: 'Fuko Restaurants Pvt Ltd, London, UK',
     stars: 5,
     featured: false,
   },
