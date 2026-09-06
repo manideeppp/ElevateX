@@ -1,16 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useTheme } from './hooks/useTheme';
-import Starfield from './components/Starfield';
-import CursorGlow from './components/CursorGlow';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TrustBar from './components/TrustBar';
-import Services from './components/Services';
+import Process from './components/Process';
 import Portfolio from './components/Portfolio';
 import WhyUs from './components/WhyUs';
 import Testimonials from './components/Testimonials';
 import CTA from './components/CTA';
-import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Admin from './components/Admin';
 
@@ -56,18 +53,14 @@ export default function App() {
 
   return (
     <>
-      <Starfield />
-      <div className="noise-overlay" />
-      <CursorGlow />
-      <Navbar theme={theme} onToggleTheme={toggle} />
+      <Navbar onToggleTheme={toggle} />
       <Hero loaded />
       <TrustBar />
-      <Services />
+      <Process />
       <Portfolio />
       <WhyUs />
       <Testimonials />
       <CTA />
-      <Contact />
       <Footer />
     </>
   );

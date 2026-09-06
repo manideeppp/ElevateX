@@ -72,7 +72,7 @@ export default function RevealLoader({ onComplete }) {
             </span>
           ))}
         </div>
-        <div className="rl-tagline">Premium Digital Agency</div>
+        <div className="rl-tagline">Web Design &amp; Development</div>
         <div className="rl-progress-wrap">
           <div className="rl-progress" ref={progressRef} />
         </div>
