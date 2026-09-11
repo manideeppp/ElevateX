@@ -105,7 +105,6 @@ export default function Contact() {
           {/* Left Info */}
           <SlideIn from="left" className="contact-left">
             <div className="section-eyebrow" style={{ justifyContent: 'flex-start' }}>
-              <span className="eyebrow-line" />
               <span>Get in Touch</span>
             </div>
             <h2 className="section-title tl">Let&apos;s Build Something<br />Extraordinary</h2>

@@ -119,24 +119,26 @@ export default function Footer() {
     <FadeIn>
       <footer className="footer">
         <div className="container footer-inner">
-          <div className="footer-top">
-            <a href="#" className="footer-brand-row">
-              <Logo variant="mark" size={40} />
-              <span className="footer-brand-name">Elevate<span className="logo-x">X</span></span>
-            </a>
-            <p className="footer-motto">
-              <span>Design.</span> <span>Build.</span> <span className="footer-motto-accent">Elevate.</span>
-            </p>
-            <p className="footer-desc">
-              Strategy-driven design and full-stack engineering for brands that refuse to blend in.
-              No templates. No shortcuts. Just premium results.
-            </p>
-          </div>
+          <div className="footer-main">
+            <div className="footer-top">
+              <a href="#" className="footer-brand-row">
+                <Logo variant="mark" size={40} />
+                <span className="footer-brand-name">Elevate<span className="logo-x">X</span></span>
+              </a>
+              <p className="footer-motto">
+                <span>Design.</span> <span>Build.</span> <span className="footer-motto-accent">Elevate.</span>
+              </p>
+              <p className="footer-desc">
+                Strategy-driven design and full-stack engineering for brands that refuse to blend in.
+                No templates. No shortcuts. Just premium results.
+              </p>
+            </div>
 
-          <div className="footer-accordions">
-            {accordionSections.map((section) => (
-              <FooterAccordion key={section.id} section={section} />
-            ))}
+            <div className="footer-accordions">
+              {accordionSections.map((section) => (
+                <FooterAccordion key={section.id} section={section} />
+              ))}
+            </div>
           </div>
 
           <div className="footer-socials">

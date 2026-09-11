@@ -4,7 +4,7 @@ import { FadeIn } from './MotionPrimitives';
 
 const testimonials = [
   {
-    text: '"ElevateX built us a complete e-commerce platform from the ground up — admin portal, secure authentication, payment gateway, all of it. Our handcrafted art and custom portraits now reach customers seamlessly online. Truly a best-in-class experience."',
+    text: '"ElevateX built us a complete e-commerce platform from the ground up: admin portal, secure authentication, payment gateway, all of it. Our handcrafted art and custom portraits now reach customers seamlessly online. Truly a best-in-class experience."',
     name: 'Sakshari Reddy',
     role: 'Founder, Swachithram, Hyderabad, India',
     stars: 5,
@@ -44,12 +44,11 @@ export default function Testimonials() {
       <div className="container">
         <FadeIn className="section-header">
           <div className="section-eyebrow">
-            <span className="eyebrow-line" />
             <span>Client Love</span>
           </div>
           <h2 className="section-title">What Our Clients Say</h2>
           <p className="section-desc">
-            Don&apos;t take our word for it — hear from the brands we&apos;ve helped grow.
+            Don&apos;t take our word for it. Hear from the brands we&apos;ve helped grow.
           </p>
         </FadeIn>
 

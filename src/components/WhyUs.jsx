@@ -19,7 +19,7 @@ const reasons = [
     ),
     iconClass: 'icon-3d-code',
     title: 'Crafted With Care',
-    desc: 'Every website we deliver is built with attention to detail — fast, polished, and designed to leave a lasting impression.',
+    desc: 'Every website we deliver is built with attention to detail: fast, polished, and designed to leave a lasting impression.',
   },
   {
     icon: (
@@ -29,7 +29,7 @@ const reasons = [
     ),
     iconClass: 'icon-3d-chart',
     title: 'Real Results',
-    desc: 'Our websites don\'t just look great — they help you attract more customers, build trust, and grow your business.',
+    desc: 'Our websites don\'t just look great. They help you attract more customers, build trust, and grow your business.',
   },
   {
     icon: (
@@ -72,7 +72,6 @@ export default function WhyUs() {
         <div className="why-layout">
           <SlideIn from="left" className="why-left">
             <div className="section-eyebrow" style={{ justifyContent: 'flex-start' }}>
-              <span className="eyebrow-line" />
               <span>Why ElevateX</span>
             </div>
             <h2 className="section-title tl">Why<br />ElevateX.</h2>

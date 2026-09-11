@@ -5,9 +5,8 @@ const ease = [0.16, 1, 0.3, 1];
 
 const steps = [
   {
-    num: '01',
     title: 'Discover',
-    desc: 'We dive deep into your brand, audience, and goals — mapping the strategy that sets every decision.',
+    desc: 'We dive deep into your brand, audience, and goals, mapping the strategy that sets every decision.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" />
@@ -15,7 +14,6 @@ const steps = [
     ),
   },
   {
-    num: '02',
     title: 'Design',
     desc: 'Pixel-perfect visuals, intuitive UX, and a brand identity that commands attention and trust.',
     icon: (
@@ -25,9 +23,8 @@ const steps = [
     ),
   },
   {
-    num: '03',
     title: 'Build',
-    desc: 'Clean, performant code — responsive, accessible, and engineered to scale with your ambitions.',
+    desc: 'Clean, performant code that is responsive, accessible, and engineered to scale with your ambitions.',
     icon: (
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="16 18 22 12 16 6" /><polyline points="8 6 2 12 8 18" />
@@ -35,7 +32,6 @@ const steps = [
     ),
   },
   {
-    num: '04',
     title: 'Launch',
     desc: 'Rigorous testing, seamless deployment, and ongoing support to keep you ahead of the curve.',
     icon: (
@@ -58,7 +54,6 @@ export default function Process() {
       <div className="container">
         <FadeIn className="section-header">
           <div className="section-eyebrow">
-            <span className="eyebrow-line" />
             <span>Our Process</span>
           </div>
           <h2 className="section-title">From Vision to Launch</h2>
@@ -79,9 +74,6 @@ export default function Process() {
               transition={{ duration: 0.6, delay: i * 0.12, ease }}
               whileHover={{ y: -8, transition: { duration: 0.25 } }}
             >
-              <div className="process-step-marker">
-                <span className="process-step-num">{step.num}</span>
-              </div>
               <div className="process-step-icon">{step.icon}</div>
               <h3 className="process-step-title">{step.title}</h3>
               <p className="process-step-desc">{step.desc}</p>

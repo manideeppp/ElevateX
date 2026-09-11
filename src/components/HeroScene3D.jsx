@@ -127,7 +127,7 @@ function AccentShapes({ mouse }) {
 
   return (
     <>
-      {/* Torus — bottom left */}
+      {/* Torus - bottom left */}
       <mesh ref={torusRef} position={[-2.4, -1.2, -0.8]}>
         <torusGeometry args={[0.5, 0.15, 16, 40]} />
         <meshPhysicalMaterial
@@ -141,7 +141,7 @@ function AccentShapes({ mouse }) {
         />
       </mesh>
 
-      {/* Icosahedron — top right */}
+      {/* Icosahedron - top right */}
       <mesh ref={icoRef} position={[2.8, 1.5, -1]}>
         <icosahedronGeometry args={[0.45, 0]} />
         <meshPhysicalMaterial
@@ -156,7 +156,7 @@ function AccentShapes({ mouse }) {
         />
       </mesh>
 
-      {/* Octahedron — mid right */}
+      {/* Octahedron - mid right */}
       <mesh ref={octRef} position={[2.5, -0.2, -0.5]}>
         <octahedronGeometry args={[0.35, 0]} />
         <meshPhysicalMaterial

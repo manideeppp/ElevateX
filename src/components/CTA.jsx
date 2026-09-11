@@ -30,7 +30,7 @@ export default function CTA() {
         <FadeIn delay={0.15}>
           <p className="cta-desc">
             Let&apos;s craft a premium digital experience that sets your brand apart and drives
-            measurable growth. Tell us about your vision — we&apos;ll turn it into reality.
+            measurable growth. Tell us about your vision and we&apos;ll turn it into reality.
           </p>
         </FadeIn>
         <ScaleIn delay={0.3}>

@@ -7,7 +7,7 @@ const offerings = [
   {
     num: '01',
     title: 'Discovery & Strategy',
-    desc: 'We learn your brand, audience, and goals — then map a clear plan to bring your vision to life online.',
+    desc: 'We learn your brand, audience, and goals, then map a clear plan to bring your vision to life online.',
     icon: (
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" />
@@ -27,7 +27,7 @@ const offerings = [
   {
     num: '03',
     title: 'Build & Launch',
-    desc: 'Fast, responsive websites with rigorous testing and seamless deployment — so you don\'t have to worry.',
+    desc: 'Fast, responsive websites with rigorous testing and seamless deployment, so you don\'t have to worry.',
     icon: (
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="16 18 22 12 16 6" /><polyline points="8 6 2 12 8 18" />
@@ -56,12 +56,11 @@ export default function Services() {
       <div className="container">
         <FadeIn className="section-header">
           <div className="section-eyebrow">
-            <span className="eyebrow-line" />
             <span>What We Do</span>
           </div>
           <h2 className="section-title">Crafted for Impact</h2>
           <p className="section-desc">
-            Beautiful, high-performing digital experiences tailored to your brand — from first
+            Beautiful, high-performing digital experiences tailored to your brand, from first
             concept to finished product and beyond.
           </p>
         </FadeIn>

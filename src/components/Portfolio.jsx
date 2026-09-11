@@ -3,8 +3,8 @@ import { FadeIn, ScaleIn, StaggerContainer, StaggerItem, HoverLift } from './Mot
 const featuredProjects = [
   {
     tags: ['E-Commerce', 'Handcrafted Art', 'Custom Design'],
-    title: 'Swachithram — Handcrafted Art Store',
-    desc: 'We built a complete end-to-end e-commerce website for Swachithram — featuring an admin portal, user authentication, payment gateway integration, and a seamless shopping experience for handcrafted Indian art, custom portraits, doll art, and personalised products.',
+    title: 'Swachithram: Handcrafted Art Store',
+    desc: 'We built a complete end-to-end e-commerce website for Swachithram featuring an admin portal, user authentication, payment gateway integration, and a seamless shopping experience for handcrafted Indian art, custom portraits, doll art, and personalised products.',
     link: 'https://swachitram.vercel.app/',
     image: '/swachithram.png',
     results: [
@@ -15,8 +15,8 @@ const featuredProjects = [
   },
   {
     tags: ['Restaurant', 'Web Design', 'Brand Identity'],
-    title: 'Fuko — Korean Restaurant',
-    desc: 'A vibrant website for Fuko, a Korean restaurant based in the UK — built to bring their brand online with a bold, modern design and a smooth browsing experience for customers exploring the menu.',
+    title: 'Fuko: Korean Restaurant',
+    desc: 'A vibrant website for Fuko, a Korean restaurant based in the UK, built to bring their brand online with a bold, modern design and a smooth browsing experience for customers exploring the menu.',
     link: 'https://fuko-website.vercel.app/',
     image: '/fuko.png',
     results: [
@@ -31,7 +31,7 @@ const projects = [
   {
     tags: ['Portfolio', 'Creative'],
     title: 'Coming Soon',
-    desc: "Another project is underway. We only show work we're truly proud of — check back shortly.",
+    desc: "Another project is underway. We only show work we're truly proud of. Check back shortly.",
   },
 ];
 
@@ -87,12 +87,11 @@ export default function Portfolio() {
       <div className="container">
         <FadeIn className="section-header">
           <div className="section-eyebrow">
-            <span className="eyebrow-line" />
             <span>Our Work</span>
           </div>
           <h2 className="section-title">Websites We&apos;ve Built</h2>
           <p className="section-desc">
-            Real projects for real businesses — designed with purpose and built to make an impact.
+            Real projects for real businesses, designed with purpose and built to make an impact.
           </p>
         </FadeIn>
 

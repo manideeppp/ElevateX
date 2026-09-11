@@ -17,7 +17,7 @@ export default function Logo({ variant = 'full', size = 40, className = '' }) {
     return (
       <img
         src="/elevatex-logo.jpg"
-        alt="ElevateX — Design. Build. Elevate."
+        alt="ElevateX. Design. Build. Elevate."
         className={`logo-img logo-img-wordmark ${className}`}
         style={{ height: size }}
         loading="eager"
